@@ -1,4 +1,4 @@
-# WebTranpost over QUIC comparison with WebSockets over TCP
+# WebTransport over QUIC comparison with WebSockets over TCP
 
 This repository holds the files that were used for the comparison between WebTransport and WebSockets. The basis of the work is to get a view on what is the relative
 performance of WebTransport over to WebSockets over TCP using known benchmarks that have been run on WebSockets as a basis for the experiment. The work done in https://github.com/matttomasetti/NodeJS_Websocket-Benchmark-Client formed the basis of the client in the tests.
