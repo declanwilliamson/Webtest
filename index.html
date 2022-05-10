@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>WebSocket Benchmark</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+<body>
+<div id="content">
+	<fieldset>
+		<legend>Server Location</legend>
+		<div>
+			<label>URL:</label>
+			<input type="text" id="serverUrl" value="ws://3.249.183.81:8080"/>
+                        <button id="webConnect">WebSocket Test</button>
+                        <button id="inProgress">In Progress</button>
+		</div>
+		<div>
+                        <br>
+                        <label>WebSocket URL format : ws://url:8080</label>
+                        <br><br>
+		</div>
+	</fieldset>
+	<fieldset id="messageArea">
+		<legend>Message Log <button id="clearMessage">Clear</button></legend>
+		<div id="messages"></div>
+	</fieldset>
+</div>
+<script type="text/javascript" src="lib/jquery-1.4.3.min.js"></script>
+<script type="text/javascript" src="WS_test.js"></script>
+</body>
+</html>
