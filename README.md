@@ -37,7 +37,7 @@ An echo server needs to be setup for accepting the WebTransport requests. There 
 Client
 It is necessary to have version 97 or later of the Chrome browser to have WebTransport support within the browser. The browser also needs to be opened with the following commands to ensure that the traffic is over QUIC
 
-open /Applications/Google\ Chrome.app --args --ignore-certificate-errors-spki-list=BSQJ0jkQ7wwhR7KvPZ+DSNk2XTZ/MS6xCbo9qu++VdQ= --enable-experimental-web-platform-features --origin-to-force-quic-on=<IP of server>:4433
+open /Applications/Google\ Chrome.app --args --ignore-certificate-errors-spki-list=BSQJ0jkQ7wwhR7KvPZ+DSNk2XTZ/MS6xCbo9qu++VdQ= --enable-experimental-web-platform-features --origin-to-force-quic-on=IP of server:4433
   
 Once the browser is started select the index_wt.html that was cloned. In the server url box input the IP address of the server and click on the Run WebTransport test option to execute the tests.
   
@@ -46,7 +46,7 @@ Once the browser is started select the index_wt.html that was cloned. In the ser
  ## Additional Tests
   The initial WebTransport test above opens a stream for each message to send over a connection. There are additional tests which open a single stream and send all the messages across this stream, and a datagram where messages are sent as un-guaranteed messages. The following are the html files to load to run each of these tests.
   Single stream    index_ss.html
-  Datagram        index_dg.html
+  Datagram         index_dg.html
   
 
 
