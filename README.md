@@ -45,8 +45,8 @@ Once the browser is started select the index_wt.html that was cloned. In the ser
   
  ## Additional Tests
   The initial WebTransport test above opens a stream for each message to send over a connection. There are additional tests which open a single stream and send all the messages across this stream, and a datagram where messages are sent as un-guaranteed messages. The following are the html files to load to run each of these tests.
-  Single stream    index_ss.html
-  Datagram         index_dg.html
+* Single stream    index_ss.html
+* Datagram         index_dg.html
   
 
 
