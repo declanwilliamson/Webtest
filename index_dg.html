@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>WebTransport Benchmark</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+<body>
+<div id="content">
+	<fieldset>
+		<legend>Server Location</legend>
+		<div>
+			<label>URL:</label>
+			<input type="text" id="serverUrl" value="https://34.252.191.17:4433/counter"/>
+                        <button id="webConnect">WebTransport Test</button>
+                        <button id="inProgress">In Progress</button>
+		</div>
+		<div>
+                        <br>
+                        <label>WebTransport URL format : https://url:4433/wt</label>
+                        <br><br>
+		</div>
+	</fieldset>
+	<fieldset id="messageArea">
+		<legend>Message Log <button id="clearMessage">Clear</button></legend>
+		<div id="messages"></div>
+	</fieldset>
+</div>
+<script type="text/javascript" src="lib/jquery-1.4.3.min.js"></script>
+<script type="text/javascript" src="WT_dg_test.js"></script>
+</body>
+</html>
