@@ -49,13 +49,13 @@ Once the browser is started select the index_wt.html that was cloned. In the ser
 * Datagram         index_dg.html
 
 
-Results
+## Results
 Three sets of experiments were run for the test, these were
-1.Comparison of connection time and message response between WebTransport over QUIC and WebSockets over TCP
-2. Comparison of delivery mechanisms of WebTransport
-3. Comparative analysis of payload sizes between WebTransport over QUIC and WebSockets over TCP
+* Comparison of connection time and message response between WebTransport over QUIC and WebSockets over TCP
+* Comparison of delivery mechanisms of WebTransport
+* Comparative analysis of payload sizes between WebTransport over QUIC and WebSockets over TCP
 
-The results of these experiments can be found here:-
+The results of each of these experiments can be found in the Results directory.
 
   
 
